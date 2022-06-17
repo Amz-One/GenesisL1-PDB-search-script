@@ -1,4 +1,4 @@
-# GenesisL1-pbid-search-script
+# GenesisL1-PBD-search-script
 PDB Search script made for GenesisL1 task that searches The Protein Data Bank for a given pdbid and outputs molecule(s) details into a CSV file, if matches are found.
 
 The PDB archive searched can be found here: https://ftp.wwpdb.org/pub/pdb/derived_data/pdb_seqres.txt
