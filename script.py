@@ -2,7 +2,7 @@
 import re, csv , contextlib
 from urllib.request import urlopen
 
-query = input("Please enter 4 character search term\n") #12e8, 6mud
+query = input("Please enter 4 character search term\n")
 assert len(query) == 4 and re.match("^[1-9]", query) != None, "query input must be 4 characters and start with an integer between 1 and 9"
 assert re.match("\d{4}", query) == None, "query cannot be a 4 digit number, it must contain letters"
 
